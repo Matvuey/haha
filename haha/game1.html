@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>打蛤蟆</title>
+		
+
+		<link rel="stylesheet" type="text/css" href="css/game.css"/>
+	</head>
+	<body>
+		<!--标题-->
+		<!--单位全部是ms-->
+		<div class="title">
+			<marquee direction="right" behavior="alternate" scrollamount="50" scrolldelay="1000">苟利国家生死以</marquee>
+			<marquee behavior="alternate" scrollamount="50" scrolldelay="1000">岂因祸福避趋之</marquee>
+		</div>
+		<!--草坪-->
+		<div id="gameDiv">
+			<img src="img/caojpg.jpg" onclick="beat(this)" />
+			<img src="img/caojpg.jpg" onclick="beat(this)" />
+			<img src="img/caojpg.jpg" onclick="beat(this)" />
+			<img src="img/caojpg.jpg" onclick="beat(this)" />
+			<img src="img/caojpg.jpg" onclick="beat(this)" />
+			<img src="img/caojpg.jpg" onclick="beat(this)" />
+			<img src="img/caojpg.jpg" onclick="beat(this)" />
+			<img src="img/caojpg.jpg" onclick="beat(this)" />
+			<img src="img/caojpg.jpg" onclick="beat(this)" />
+		</div>
+		<div>
+			<!--积分框-->
+		<p id="score">您为长者续了：		</p> 
+		<p id="mark"></p>
+		<div id="button"  onclick="start(this)"></div>
+	    </div>	
+	<script type="text/javascript" src="js/game.js" ></script> 
+	</body>
+</html>
